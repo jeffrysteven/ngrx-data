@@ -15,12 +15,12 @@ export class CatService extends EntityCollectionServiceBase<Cat> {
     super('Cat', serviceElementsFactory);
   }
 
-  getAll(): Observable<Cat[]> {
+  /* getAll(): Observable<Cat[]> {
     return super.getAll().pipe(
       map(({ results }: any) => {
         console.log('results', results);
         return results;
       })
     );
-  }
+  } */
 }
