@@ -4,8 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Prerequisites
 
-Docker
-Node.JS
+Docker, Node.JS
 
 ## How to run it
 
@@ -20,4 +19,8 @@ Node.JS
 `npm i`
 `npm start`
 
+### Parse dashboard
+[http://localhost:4040/](http://localhost:4040/) (User and pass in the docker-compose file)
 
+### Mongo Database
+[http://localhost:27017/](http://localhost:27017/)
