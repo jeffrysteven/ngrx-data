@@ -6,8 +6,7 @@ import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-cat-form',
-  templateUrl: './cat-form.component.html',
-  styleUrls: ['./cat-form.component.css']
+  templateUrl: './cat-form.component.html'
 })
 export class CatFormComponent {
   cats$: Observable<Cat[]>;

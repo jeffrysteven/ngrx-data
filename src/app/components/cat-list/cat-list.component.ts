@@ -5,8 +5,7 @@ import { Cat } from 'src/app/dto/cat';
 
 @Component({
   selector: 'app-cat-list',
-  templateUrl: './cat-list.component.html',
-  styleUrls: ['./cat-list.component.css']
+  templateUrl: './cat-list.component.html'
 })
 export class CatListComponent implements OnInit {
   cats$: Observable<Cat[]>;
