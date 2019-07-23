@@ -23,4 +23,4 @@ Docker, Node.JS
 [http://localhost:4040/](http://localhost:4040/) (User and pass in the docker-compose file)
 
 ### Mongo Database
-[http://localhost:27017/](http://localhost:27017/)
+localhost:27017
