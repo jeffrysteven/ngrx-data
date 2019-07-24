@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppStoreModule } from './store/app-store.module';
+import { ServicesModule } from './services/services.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,7 +15,8 @@ import { AppStoreModule } from './store/app-store.module';
     HttpClientModule,
     AppRoutingModule,
     FormsModule,
-    AppStoreModule
+    AppStoreModule,
+    ServicesModule
   ],
   /* providers: [
     {
