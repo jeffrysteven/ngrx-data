@@ -7,9 +7,11 @@ import { AppComponent } from './app.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppStoreModule } from './store/app-store.module';
 import { ServicesModule } from './services/services.module';
+import { CatFormComponent } from './components/cat-form/cat-form.component';
+import { CatListComponent } from './components/cat-list/cat-list.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, CatFormComponent, CatListComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
